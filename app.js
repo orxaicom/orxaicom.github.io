@@ -38,7 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
           r: 10,
           title: additionalInfo[index].title,
           abstract: additionalInfo[index].abstract,
-          link: additionalInfo[index].link,
+          link: additionalInfo[index].arxiv_id
+            ? `https://arxiv.org/abs/${additionalInfo[index].arxiv_id}`
+            : null,
           cluster: clusters[index],
         }));
 
@@ -129,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const info = chart.data.datasets[datasetIndex].data[dataIndex];
 
             if (info.link) {
-              window.location.href = info.link;
+              window.open(info.link, "_blank");
             }
           }
         });
