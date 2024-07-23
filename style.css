@@ -19,6 +19,7 @@
 .chart-container {
     flex-grow: 1;
     position: relative;
+    min-height: 500px;
 }
 
 #umap-plot {
@@ -108,11 +109,16 @@
 
 #searchInput {
     padding: 10px;
+    margin: 10px;
     border-radius: 10px;
     border: none;
     background-color: #333333;
     color: #ffffff;
     font-size: 16px;
+}
+
+button {
+    margin: 10px;
 }
 
 #searchInput::placeholder {
