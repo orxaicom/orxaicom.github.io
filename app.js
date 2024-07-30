@@ -164,7 +164,8 @@ document.addEventListener("DOMContentLoaded", function () {
           },
           title: {
             display: true,
-            text: "Updated at esyscmd(date -u +'%b %d %R %Z')",
+            text: "Updated at Tue Jul 30 06:00:55 UTC 2024
+",
           },
         },
         elements: {
