@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
   const ctx = document.getElementById("umap-plot").getContext("2d");
   const tooltipContainer = document.getElementById("tooltip-container");
@@ -164,8 +163,7 @@ document.addEventListener("DOMContentLoaded", function () {
           },
           title: {
             display: true,
-            text: "Updated at Tue Jul 30 06:00:55 UTC 2024
-",
+            text: "Updated at Tue Jul 30 06:22:20 UTC 2024",
           },
         },
         elements: {
