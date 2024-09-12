@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", function () {
           },
           title: {
             display: true,
-            text: "Updated on Wed Sep 11 02:34 UTC. No new papers on arXiv on Sat & Sun",
+            text: "Updated on Thu Sep 12 02:36 UTC. No new papers on arXiv on Sat & Sun",
           },
         },
         elements: {
