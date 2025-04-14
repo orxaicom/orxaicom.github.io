@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
           },
           title: {
             display: true,
-            text: "Updated on Fri Apr 11 02:29 UTC. No new papers on arXiv on Sat & Sun",
+            text: "Updated on Mon Apr 14 02:41 UTC. No new papers on arXiv on Sat & Sun",
           },
         },
         elements: {
